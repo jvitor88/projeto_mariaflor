@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right,#A5D7F2, #88A2CF);
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    margin-bottom: -15px;
+}
+header{
+    background-image: linear-gradient(to top, white, white, #A5D7F2, #88A2CF);
+    margin-bottom: -15px;
+}
+.menu {
+    background-color: white;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding-bottom: 2px;
+}
+.menu > ul {
+    font-size: 25px;
+    text-align: center;
+}
+.menu > ul > li {
+    display: inline;
+}
+li > a{
+    color: #0B96C1;
+    font-family: 'Koulen', cursive;
+    font: 50px;
+}
+li > a:hover{
+    text-decoration: underline;
+    color: #88A2CF;
+}
+img#container{
+    width: 100%;
+    max-width: 3000px;
+    margin: 0 auto;
+}
+#quinze {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+#casa, #bodas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+div > p{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    padding-top: 10px;
+}
